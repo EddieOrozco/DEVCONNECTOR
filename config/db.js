@@ -4,7 +4,10 @@ const db = config.get('mangoURI');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(db, { useNewUrlParser: true });
+    await mongoose.connect(db, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     console.log('MangoDB Connected...');
   } catch (err) {
     console.error(err.message);
