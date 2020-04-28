@@ -1,3 +1,4 @@
 {
-  "mangoURI": "mongodb+srv://Eddie123:Eddie123@devconnector-ziptl.mongodb.net/test?retryWrites=true&w=majority"
+  "mangoURI": "mongodb+srv://Eddie123:Eddie123@devconnector-ziptl.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
